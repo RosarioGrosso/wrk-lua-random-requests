@@ -1,0 +1,3 @@
+wrk -t1 -c5 -d10s --timeout 1 -s luawrk/add_random_alpha.lua http://target_domain.com/?id=
+
+random string will be appended at the end of the url.
